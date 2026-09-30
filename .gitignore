@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / Object binaries
+*.o
+*.obj
+*.exe
+*.out
+
+# Environment & temporary directories
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+dist/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Runtime logs
+benchmark_logs/
+*.tmp

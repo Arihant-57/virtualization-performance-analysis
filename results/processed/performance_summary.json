@@ -1,0 +1,36 @@
+{
+  "experiment_title": "Performance Analysis of Type-1 and Type-2 Hypervisors",
+  "benchmark_workload": "sysbench cpu --cpu-max-prime=20000 run",
+  "guest_os": "Ubuntu Linux",
+  "vm_resources": {
+    "vCPU": 2,
+    "RAM_GB": 2,
+    "virtual_disk_GB": 20
+  },
+  "empirical_measurements": {
+    "proxmox_ve_type1": {
+      "type": "Type-1",
+      "total_time_s": 10.003,
+      "total_events": 14548,
+      "events_per_sec": 1453.98,
+      "avg_latency_ms": 0.69
+    },
+    "vmware_workstation_type2": {
+      "type": "Type-2",
+      "total_time_s": 10.0002,
+      "total_events": 10381,
+      "events_per_sec": 1037.93,
+      "avg_latency_ms": 0.96
+    }
+  },
+  "comparative_analysis": {
+    "throughput_difference_events_per_sec": 416.05,
+    "throughput_percentage_advantage_type1": 40.08,
+    "total_events_processed_differential": 4167,
+    "total_events_percentage_differential": 40.14,
+    "execution_time_delta_seconds": 0.0028,
+    "average_latency_reduction_ms": 0.27,
+    "average_latency_reduction_percentage": 28.13,
+    "throughput_speedup_factor": 1.401
+  }
+}

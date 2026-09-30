@@ -1,0 +1,33 @@
+arihant@arihant-VMware-Virtual-Platform:~$ sysbench cpu --cpu-max-prime=20000 run
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  1037.93
+
+General statistics:
+    total time:                          10.0002s
+    total number of events:              10381
+
+Latency (ms):
+         min:                                    0.94
+         avg:                                    0.96
+         max:                                    3.30
+         95th percentile:                        1.03
+         sum:                                 9993.73
+
+Threads fairness:
+    events (avg/stddev):           10381.0000/0.00
+    execution time (avg/stddev):   9.9937/0.00
+
+arihant@arihant-VMware-Virtual-Platform:~$

@@ -1,0 +1,33 @@
+arihant@arihant-Standard-PC-i440FX-PIIX-1996:~$ sysbench cpu --cpu-max-prime=20000 run
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  1453.98
+
+General statistics:
+    total time:                          10.0030s
+    total number of events:              14548
+
+Latency (ms):
+         min:                                    0.57
+         avg:                                    0.69
+         max:                                    1.24
+         95th percentile:                        0.74
+         sum:                                 9994.30
+
+Threads fairness:
+    events (avg/stddev):           14548.0000/0.00
+    execution time (avg/stddev):   9.9943/0.00
+
+arihant@arihant-Standard-PC-i440FX-PIIX-1996:~$

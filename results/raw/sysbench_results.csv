@@ -1,0 +1,3 @@
+hypervisor,type,total_time_s,total_events,events_per_sec,avg_latency_ms
+Proxmox VE,Type-1,10.0030,14548,1453.98,0.69
+VMware Workstation,Type-2,10.0002,10381,1037.93,0.96
